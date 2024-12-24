@@ -1,0 +1,11 @@
+# Behavior: classical
+# NAME: Rule Zerotier
+# YT: https://www.youtube.com/@aryobrokolly
+# TEEGRAM: https://t.me/aryobrokoly
+# UPDATED: 2024-11-20
+payload:
+  # Zerotier
+  - DST-PORT,9993
+  - DST-PORT,9994
+  - DST-PORT,9995
+  - DOMAIN-SUFFIX, raw.githubusercontent.com

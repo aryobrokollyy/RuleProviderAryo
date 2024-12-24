@@ -1,0 +1,36 @@
+# Behavior: classical
+# NAME: Rule PUBGM
+# YT: https://www.youtube.com/@aryobrokolly
+# TEEGRAM: https://t.me/aryobrokoly
+# UPDATED: 2024-11-20
+payload:
+  - DOMAIN-KEYWORD,pubg
+  - DOMAIN-KEYWORD,pubgmobile
+  - DOMAIN,pubgmobile.com
+  - DOMAIN,igamecj.com
+  - DOMAIN,pubgmobile-com.mail.protection.outlook.com
+  - DOMAIN,platform-lookaside.fbsbx.com
+  - DOMAIN,awsdns-hostmaster.amazon.com
+  - DOMAIN,app.adjust.world
+  - DOMAIN,app.adjust.net.in
+  - DOMAIN,cdn.wetest.net
+  - DOMAIN,cdn.wetest.qq.com
+  - DOMAIN,in.appcenter.ms
+  - DOMAIN-SUFFIX,*.tencent.com
+  - DOMAIN-SUFFIX,*.awsdns-55.co.uk
+  - DOMAIN-SUFFIX,*.awsdns-43.com
+  - DOMAIN-SUFFIX,*.awsdns-47.net
+  - DOMAIN-SUFFIX,*.awsdns-34.org
+  - DOMAIN-SUFFIX,*.awsdns-47.net
+  - DOMAIN-SUFFIX,*.protection.outlook.com
+  - DOMAIN-SUFFIX,*.mandrillapp.com
+  - DOMAIN-SUFFIX,*.tdatamaster.com
+  - DOMAIN-SUFFIX,*.igamecj.com
+  - DOMAIN-SUFFIX,*.twimg.com
+  - DOMAIN-SUFFIX,*.anticheatexpert.com
+  - DOMAIN-SUFFIX,*.gcloudcs.com
+  - DOMAIN-SUFFIX,*.gcloudsdk.com
+  - DOMAIN-SUFFIX,*.amsoveasea.com
+  - DOMAIN-SUFFIX,*.onezapp.com
+  - DOMAIN-SUFFIX,*.proximabeta.com
+  - DOMAIN-SUFFIX,*.qcloud.com

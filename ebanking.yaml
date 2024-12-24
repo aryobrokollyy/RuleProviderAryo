@@ -1,0 +1,32 @@
+# Behavior: classical
+# NAME: Rule Ebanking
+# YT: https://www.youtube.com/@aryobrokolly
+# TEEGRAM: https://t.me/aryobrokoly
+# UPDATED: 2024-11-20
+payload:
+  # BNI
+  - DOMAIN-KEYWORD,bni
+  - DOMAIN-SUFFIX,bni.co.id
+  - DOMAIN-SUFFIX,mbrc2025.bni.co.id
+  # BRI
+  - DOMAIN-KEYWORD,bri
+  - DOMAIN-SUFFIX,bri.co.id
+  - DOMAIN-SUFFIX,brimo.bri.co.id
+  - DOMAIN-SUFFIX,mobile.bri.co.id
+  # DANA
+  - DOMAIN-KEYWORD,dana.co.id
+  - DOMAIN-SUFFIX,gw-dana.ebuckler.com
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-SUFFIX,api2.branch.io
+  - DOMAIN-SUFFIX,api.mixpanel.com
+  - DOMAIN-SUFFIX,account.api.here.com
+  - DOMAIN-SUFFIX,auth.split.io
+  - DOMAIN-SUFFIX,rum-ingest.us1.signalfx.com
+# BCA
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-SUFFIX,klikbca.com
+  - DOMAIN-SUFFIX,mbanktrans.klikbca.com
+  - DST-PORT,33311
+  - IP-DST,202.6.208.23/16
+  - IP-DST,34.111.6.225/16
+  - IP-DST,202.6.211.21/16
